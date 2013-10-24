@@ -1,0 +1,48 @@
+[
+	{
+		"id"				: 1,
+		"name"				: "Predictive Engine",
+		"clientName"		: "OSDE",
+		"durationInMonths"	: 4,
+		"type"				: "DEVELOPMENT",
+		"team"				: [
+		      				   {
+		      					   "id"				: 1,
+		      					   "name"			: "Florencia",
+		      					   "lastName"		: "Castagnino",
+		      					   "dateOfBirth"	: "01/15/1980",
+		      					   "fileNumber"		: "123"
+		      				   }, {
+		      					   "id"				: 2,
+		      					   "name"			: "Adrian",
+		      					   "lastName"		: "Paredes",
+		      					   "dateOfBirth"	: "06/03/1982",
+		      					   "fileNumber"		: "456"
+		      				   }, {
+		      					   "id"				: 3,
+		      					   "name"			: "Leonardo",
+		      					   "lastName"		: "Pavanello",
+		      					   "dateOfBirth"	: "05/28/1984",
+		      					   "fileNumber"		: "789"
+		      				   }, {
+		      					   "id"				: 4,
+		      					   "name"			: "Juan",
+		      					   "lastName"		: "Garagorri",
+		      					   "dateOfBirth"	: "08/11/1986",
+		      					   "fileNumber"		: "859"
+		      				   }, {
+		      					   "id"				: 5,
+		      					   "name"			: "Veronica",
+		      					   "lastName"		: "Pechersky",
+		      					   "dateOfBirth"	: "05/04/1981",
+		      					   "fileNumber"		: "242"
+		      				   }, {
+		      					   "id"				: 6,
+		      					   "name"			: "Gonzalo",
+		      					   "lastName"		: "Daneri",
+		      					   "dateOfBirth"	: "09/21/1990",
+		      					   "fileNumber"		: "999"
+		      				   }
+		      			]
+	}
+]
