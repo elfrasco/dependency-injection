@@ -1,48 +1,71 @@
-[
-	{
-		"id"				: 1,
-		"name"				: "Predictive Engine",
-		"clientName"		: "OSDE",
-		"durationInMonths"	: 4,
-		"type"				: "DEVELOPMENT",
-		"team"				: [
-		      				   {
-		      					   "id"				: 1,
-		      					   "name"			: "Florencia",
-		      					   "lastName"		: "Castagnino",
-		      					   "dateOfBirth"	: "01/15/1980",
-		      					   "fileNumber"		: "123"
-		      				   }, {
-		      					   "id"				: 2,
-		      					   "name"			: "Adrian",
-		      					   "lastName"		: "Paredes",
-		      					   "dateOfBirth"	: "06/03/1982",
-		      					   "fileNumber"		: "456"
-		      				   }, {
-		      					   "id"				: 3,
-		      					   "name"			: "Leonardo",
-		      					   "lastName"		: "Pavanello",
-		      					   "dateOfBirth"	: "05/28/1984",
-		      					   "fileNumber"		: "789"
-		      				   }, {
-		      					   "id"				: 4,
-		      					   "name"			: "Juan",
-		      					   "lastName"		: "Garagorri",
-		      					   "dateOfBirth"	: "08/11/1986",
-		      					   "fileNumber"		: "859"
-		      				   }, {
-		      					   "id"				: 5,
-		      					   "name"			: "Veronica",
-		      					   "lastName"		: "Pechersky",
-		      					   "dateOfBirth"	: "05/04/1981",
-		      					   "fileNumber"		: "242"
-		      				   }, {
-		      					   "id"				: 6,
-		      					   "name"			: "Gonzalo",
-		      					   "lastName"		: "Daneri",
-		      					   "dateOfBirth"	: "09/21/1990",
-		      					   "fileNumber"		: "999"
-		      				   }
-		      			]
-	}
-]
+[ {
+	"id" : "1",
+	"name" : "Predictive Engine",
+	"durationInMonths" : 4,
+	"clientName" : "OSDE",
+	"type" : "DEVELOPMENT",
+	"team" : [ {
+		"id" : "1",
+		"name" : "Florencia",
+		"secondName" : null,
+		"lastName" : "Castagnino",
+		"dateOfBirth" : "01/15/1980",
+		"fileNumber" : "123"
+	}, {
+		"id" : "2",
+		"name" : "Adrian",
+		"secondName" : null,
+		"lastName" : "Paredes",
+		"dateOfBirth" : "06/03/1982",
+		"fileNumber" : "456"
+	}, {
+		"id" : "3",
+		"name" : "Leonardo",
+		"secondName" : null,
+		"lastName" : "Pavanello",
+		"dateOfBirth" : "05/28/1984",
+		"fileNumber" : "789"
+	}, {
+		"id" : "4",
+		"name" : "Juan",
+		"secondName" : null,
+		"lastName" : "Garagorri",
+		"dateOfBirth" : "08/11/1986",
+		"fileNumber" : "859"
+	}, {
+		"id" : "5",
+		"name" : "Veronica",
+		"secondName" : null,
+		"lastName" : "Pechersky",
+		"dateOfBirth" : "05/04/1981",
+		"fileNumber" : "242"
+	}, {
+		"id" : "6",
+		"name" : "Gonzalo",
+		"secondName" : null,
+		"lastName" : "Daneri",
+		"dateOfBirth" : "09/21/1990",
+		"fileNumber" : "999"
+	} ]
+}, {
+	"id" : "2",
+	"name" : "Portal BiMo",
+	"durationInMonths" : 5,
+	"clientName" : "Banelco",
+	"type" : "DEVELOPMENT",
+	"team" : [ {
+		"id" : "7",
+		"name" : "Vicente",
+		"secondName" : null,
+		"lastName" : "Tripodi",
+		"dateOfBirth" : "10/10/1995",
+		"fileNumber" : "1278"
+	}, {
+		"id" : "8",
+		"name" : "Santiago",
+		"secondName" : null,
+		"lastName" : "Guerra",
+		"dateOfBirth" : "06/23/1999",
+		"fileNumber" : "177888"
+	} ]
+} ]

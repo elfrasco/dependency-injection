@@ -13,6 +13,8 @@
         <!-- Versions -->
         <junit.version>4.11</junit.version>
         <log4j.version>1.2.16</log4j.version>
+        <commons-collections.version>3.0</commons-collections.version>
+        <commons-lang.version>2.6</commons-lang.version>
 
         <!-- Encoding -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -42,6 +44,18 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>${log4j.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>${commons-lang.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>${commons-collections.version}</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
