@@ -15,6 +15,7 @@
         <log4j.version>1.2.16</log4j.version>
         <commons-collections.version>3.0</commons-collections.version>
         <commons-lang.version>2.6</commons-lang.version>
+	<jackson.version>1.9.2</jackson.version>
 
         <!-- Encoding -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -38,7 +39,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
-            <scope>test</scope>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
@@ -58,10 +59,17 @@
             <version>${commons-collections.version}</version>
             <scope>provided</scope>
         </dependency>
+	<dependency>
+	    <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>${jackson.version}</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <modules>
         <module>dependency-injection-model</module>
-    </modules>
+    <module>dependency-injection-simple</module>
+  </modules>
 	
 </project>

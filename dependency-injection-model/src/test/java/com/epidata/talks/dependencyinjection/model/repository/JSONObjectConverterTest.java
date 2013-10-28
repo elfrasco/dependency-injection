@@ -6,7 +6,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import com.epidata.talks.dependencyinjection.model.Project;
-import com.epidata.talks.dependencyinjection.model.repository.test.util.ProjectAsserts;
+import com.epidata.talks.dependencyinjection.model.test.ProjectAsserts;
 
 public class JSONObjectConverterTest {
 

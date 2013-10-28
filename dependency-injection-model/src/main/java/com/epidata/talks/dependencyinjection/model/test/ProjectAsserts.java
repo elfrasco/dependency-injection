@@ -1,4 +1,4 @@
-package com.epidata.talks.dependencyinjection.model.repository.test.util;
+package com.epidata.talks.dependencyinjection.model.test;
 
 import java.util.Arrays;
 import java.util.List;

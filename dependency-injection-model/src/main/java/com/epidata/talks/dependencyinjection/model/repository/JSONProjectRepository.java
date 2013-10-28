@@ -19,12 +19,6 @@ public class JSONProjectRepository implements ProjectRepository {
 	}
 	
 	@Override
-	public void save(Project project) {
-		projects.add(project);
-		JSONObjectConverter.convertToJSONFile(REPOSITORY_FILE, projects);
-	}
-
-	@Override
 	public Project findByName(String name) {
 		
 		if (StringUtils.isBlank(name)) {
