@@ -69,7 +69,7 @@
 
     <modules>
         <module>dependency-injection-model</module>
-    <module>dependency-injection-simple</module>
-  </modules>
+    	<module>dependency-injection-simple</module>
+    </modules>
 	
 </project>
