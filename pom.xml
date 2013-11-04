@@ -69,8 +69,8 @@
 
     <modules>
         <module>dependency-injection-model</module>
-    	<module>dependency-injection-simple</module>
-    <module>dependency-injection-adhoc</module>
-  </modules>
+    	<module>dependency-injection-base</module>
+        <module>dependency-injection-adhoc</module>
+    </modules>
 	
 </project>
