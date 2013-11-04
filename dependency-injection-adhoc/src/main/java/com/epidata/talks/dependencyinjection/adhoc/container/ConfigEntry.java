@@ -1,19 +1,15 @@
 package com.epidata.talks.dependencyinjection.adhoc.container;
 
+import java.util.List;
+
 public class ConfigEntry {
 
 	private String name;
 	
 	private String className;
 	
-	public ConfigEntry() {
-	}
+	private List<Attribute> attributes;
 	
-	public ConfigEntry(String name, String className) {
-		this.name = name;
-		this.className = className;
-	}
-
 	public String getName() {
 		return name;
 	}
@@ -28,6 +24,10 @@ public class ConfigEntry {
 
 	public void setClassName(String className) {
 		this.className = className;
+	}
+	
+	public List<Attribute> getAttributes() {
+		return attributes;
 	}
 	
 }

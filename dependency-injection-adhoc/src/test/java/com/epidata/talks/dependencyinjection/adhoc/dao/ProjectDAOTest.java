@@ -15,7 +15,7 @@ public class ProjectDAOTest {
 	@Before
 	public void init() {
 		Container container = new Container("/app-config.json");
-		projectDAO = container.get("projectDAO");
+		projectDAO = container.getBean("projectDAO");
 	}
 	
 	@Test
