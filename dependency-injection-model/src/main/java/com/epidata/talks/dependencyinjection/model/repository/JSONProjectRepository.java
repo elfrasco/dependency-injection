@@ -3,7 +3,6 @@ package com.epidata.talks.dependencyinjection.model.repository;
 import java.util.List;
 
 import org.apache.commons.collections.CollectionUtils;
-import org.apache.commons.collections.Predicate;
 import org.apache.commons.lang.StringUtils;
 
 import com.epidata.talks.dependencyinjection.model.Project;
@@ -29,21 +28,6 @@ public class JSONProjectRepository implements ProjectRepository {
 				new ProjectByNamePredicate(name));
 		
 		return project;
-	}
-	
-	class ProjectByNamePredicate implements Predicate {
-		
-		private String name;
-		
-		public ProjectByNamePredicate(String name) {
-			this.name = name;
-		}
-
-		@Override
-		public boolean evaluate(Object project) {
-			return name.equals(((Project) project).getName());
-		}
-		
 	}
 
 }
