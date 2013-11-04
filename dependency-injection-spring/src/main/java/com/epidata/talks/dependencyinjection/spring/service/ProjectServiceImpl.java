@@ -1,11 +1,17 @@
-package com.epidata.talks.dependencyinjection.adhoc.service;
+package com.epidata.talks.dependencyinjection.spring.service;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.epidata.talks.dependencyinjection.base.dao.ProjectDAO;
 import com.epidata.talks.dependencyinjection.base.service.ProjectService;
 import com.epidata.talks.dependencyinjection.model.Project;
 
+@Service
 public class ProjectServiceImpl implements ProjectService {
 	
+	@Autowired
 	private ProjectDAO dao;
 	
 	@Override
@@ -13,11 +19,4 @@ public class ProjectServiceImpl implements ProjectService {
 		return dao.findByName(name);
 	}
 
-	public ProjectDAO getDao() {
-		return dao;
-	}
-	
-	public void setDao(ProjectDAO dao) {
-		this.dao = dao;
-	}
 }

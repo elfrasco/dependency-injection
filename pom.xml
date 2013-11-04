@@ -71,6 +71,7 @@
         <module>dependency-injection-model</module>
     	<module>dependency-injection-base</module>
         <module>dependency-injection-adhoc</module>
-    </modules>
+    <module>dependency-injection-spring</module>
+  </modules>
 	
 </project>

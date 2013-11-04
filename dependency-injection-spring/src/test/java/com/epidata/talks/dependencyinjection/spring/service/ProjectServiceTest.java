@@ -1,22 +1,21 @@
-package com.epidata.talks.dependencyinjection.adhoc.service;
+package com.epidata.talks.dependencyinjection.spring.service;
 
-import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.epidata.talks.dependencyinjection.adhoc.container.Container;
 import com.epidata.talks.dependencyinjection.base.service.ProjectService;
 import com.epidata.talks.dependencyinjection.model.Project;
 import com.epidata.talks.dependencyinjection.model.test.ProjectAsserts;
 
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration({"/app-config.xml"})
 public class ProjectServiceTest {
 
+	@Autowired
 	private ProjectService service;
-	
-	@Before
-	public void init() {
-		Container container = new Container("/app-config.json");
-		service = container.getBean("projectService");
-	}
 	
 	@Test
 	public void findByName() {

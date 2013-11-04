@@ -1,6 +1,6 @@
 [ {
 	"name" : "projectDAO",
-	"className" : "com.epidata.talks.dependencyinjection.simple.dao.ProjectDAOImpl"
+	"className" : "com.epidata.talks.dependencyinjection.base.dao.ProjectDAOImpl"
 }, {
 	"name" : "projectService",
 	"className" : "com.epidata.talks.dependencyinjection.adhoc.service.ProjectServiceImpl",
