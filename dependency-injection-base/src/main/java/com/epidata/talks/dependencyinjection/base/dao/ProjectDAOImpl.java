@@ -1,4 +1,4 @@
-package com.epidata.talks.dependencyinjection.simple.dao;
+package com.epidata.talks.dependencyinjection.base.dao;
 
 import com.epidata.talks.dependencyinjection.model.Project;
 import com.epidata.talks.dependencyinjection.model.repository.JSONProjectRepository;

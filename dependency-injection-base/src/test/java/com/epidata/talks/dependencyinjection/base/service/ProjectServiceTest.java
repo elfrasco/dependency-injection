@@ -1,8 +1,10 @@
-package com.epidata.talks.dependencyinjection.simple.service;
+package com.epidata.talks.dependencyinjection.base.service;
 
 import org.junit.Before;
 import org.junit.Test;
 
+import com.epidata.talks.dependencyinjection.base.service.ProjectService;
+import com.epidata.talks.dependencyinjection.base.service.ProjectServiceImpl;
 import com.epidata.talks.dependencyinjection.model.Project;
 import com.epidata.talks.dependencyinjection.model.test.ProjectAsserts;
 

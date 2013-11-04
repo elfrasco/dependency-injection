@@ -1,8 +1,8 @@
-package com.epidata.talks.dependencyinjection.simple.service;
+package com.epidata.talks.dependencyinjection.base.service;
 
+import com.epidata.talks.dependencyinjection.base.dao.ProjectDAO;
+import com.epidata.talks.dependencyinjection.base.dao.ProjectDAOImpl;
 import com.epidata.talks.dependencyinjection.model.Project;
-import com.epidata.talks.dependencyinjection.simple.dao.ProjectDAO;
-import com.epidata.talks.dependencyinjection.simple.dao.ProjectDAOImpl;
 
 public class ProjectServiceImpl implements ProjectService {
 	
