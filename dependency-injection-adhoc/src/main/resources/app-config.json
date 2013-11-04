@@ -1,0 +1,4 @@
+[ {
+	"name" : "projectDAO",
+	"className" : "com.epidata.talks.dependencyinjection.simple.dao.ProjectDAOImpl"
+} ]
