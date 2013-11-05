@@ -71,8 +71,8 @@
         <module>dependency-injection-model</module>
     	<module>dependency-injection-base</module>
         <module>dependency-injection-adhoc</module>
-    <module>dependency-injection-spring</module>
-    <module>dependency-injection-javaee</module>
-  </modules>
+        <module>dependency-injection-spring</module>
+        <module>dependency-injection-javaee</module>
+    </modules>
 	
 </project>
