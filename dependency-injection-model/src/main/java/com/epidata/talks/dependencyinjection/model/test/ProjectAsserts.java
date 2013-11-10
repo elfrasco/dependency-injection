@@ -14,7 +14,7 @@ public class ProjectAsserts {
 	
 	private static final List<String> PORTAL_BIMO_TEAM_NAMES = Arrays.asList("Vicente", "Santiago");
 	
-	private static final List<String> PROJECT_NAMES = Arrays.asList("Portal BiMo", "Predictive Engine");
+	private static final List<String> PROJECT_NAMES = Arrays.asList("Portal BiMo", "Predictive Engine", "Mock Project");
 
 	public static void assertProject(Project project) {
 		

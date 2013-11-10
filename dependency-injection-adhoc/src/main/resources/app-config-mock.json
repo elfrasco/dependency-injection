@@ -1,0 +1,11 @@
+[ {
+	"name" : "projectDAO",
+	"className" : "com.epidata.talks.dependencyinjection.base.dao.ProjectDAOMock"
+}, {
+	"name" : "projectService",
+	"className" : "com.epidata.talks.dependencyinjection.adhoc.service.ProjectServiceImpl",
+	"attributes" : [ {
+		"attributeName" : "dao",
+		"beanName" : "projectDAO"
+	} ]
+} ]

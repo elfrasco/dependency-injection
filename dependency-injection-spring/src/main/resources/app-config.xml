@@ -9,6 +9,7 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
         
     <bean id="projectDAO" class="com.epidata.talks.dependencyinjection.base.dao.ProjectDAOImpl" />
+<!--     <bean id="projectDAO" class="com.epidata.talks.dependencyinjection.base.dao.ProjectDAOMock" /> -->
 
 	<context:component-scan base-package="com.epidata.talks.dependencyinjection" annotation-config="true" />
 	<context:annotation-config />
